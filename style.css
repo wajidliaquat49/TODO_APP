@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    /* background-image: url(download.png); */
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.bg {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(download.png);
+    /* position: relative; */
+}
+
+.container {
+    width: 400px;
+    height: 560px;
+    background-color: white;
+    border: 2px solid orange;
+    margin: auto auto;
+    /* margin-top: 10px; */
+    position: relative;
+    top: 30px;
+    border-radius: 4px;
+}
+
+.heading-div {
+    background-color: orange;
+    height: 50px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 13px;
+    color: white;
+}
+
+.input-parent {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+#input {
+    width: 250px;
+    height: 31px;
+    padding-left: 10px;
+    margin-top: 10px;
+    outline: none;
+    background-color: blue;
+    border: 2px solid blue;
+    border-radius: 4px;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+#input-btn {
+    width: 50px;
+    height: 35px;
+    margin-top: 10px;
+    font-size: 22px;
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#span_parent {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    /* padding-left: 12px; */
+    /* margin-left: 10px; */
+}
+
+
+/* .btn_parent {
+    /* display: flex;
+    justify-content: flex-end;
+    align-items: center; */
+/* display: flex;
+    position: absolute;
+    left: 285px;
+    gap: 8px; */
+
+
+.taskList {
+    display: flex;
+    /* justify-content: center; */
+    margin-top: 10px;
+    margin-left: 38px;
+    /* width: 300px; */
+}
+
+.java_list_container {
+    /* width: 323px; */
+    width: 235px;
+    height: 37px;
+    background-color: black;
+    border-radius: 4px;
+    display: flex;
+    /* justify-content: space-evenly;  */
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+
+
+.edit {
+    padding: 8px 10px;
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    position: absolute;
+    left: 275px;
+    gap: 8px;
+}
+
+.delete {
+    padding: 8px 10px;
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    position: absolute;
+    left: 320px;
+    gap: 8px;
+}
